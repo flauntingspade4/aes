@@ -1,0 +1,12 @@
+[package]
+name = "aes"
+version = "0.1.0"
+edition = "2018"
+
+[dev-dependencies]
+criterion = "0.3.4"
+rand = "^0.8"
+
+[[bench]]
+name = "enc_bench"
+harness = false
